@@ -1,0 +1,74 @@
+.container {
+    width: 310px;
+    height: 200px;
+    border: solid 3px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+.block {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.div1 {
+    z-index: 4;
+    left: 20px;
+    background-color: red;
+}
+
+.div2 {
+    z-index: 3;
+    left: 40px;
+    background-color: greenyellow;
+}
+
+.div3 {
+    z-index: 2;
+    left: 60px;
+    background-color: blue;
+}
+
+.div4 {
+    z-index: 1;
+    left: 80px;
+    background-color: blueviolet;
+}
+
+.classDiv{
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.classDiv1{
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 16px;
+    box-sizing: border-box;
+}
+.elemente{
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.elemente1{
+    width: 60px;
+    border: 1px solid rgb(251, 0, 255);
+    font-size: 40px;
+}
+.Necesarecred{
+    justify-content: center;
+    display:flex;
+    position: relative;
+    bottom: 16px;
+    right: 16px;
+    font-size: 18px;
+   
+
+}
